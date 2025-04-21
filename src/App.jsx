@@ -52,34 +52,3 @@ const App = () => {
 
 export default App;
 
-
-// import { useState, useMemo } from "react";
-
-// const Example = () => {
-//   const [count, setCount] = useState(0);
-//   const [numbers, setNumbers] = useState([1, 2, 3, 4, 5]);
-
-//   const expensiveCalculation = (nums) => {
-//     console.log("Performing expensive calculation...");
-//     return nums.map((num) => num * 2);
-//   };
-
-//   const memoizedResult = useMemo(() => expensiveCalculation(numbers), [numbers]);
-
-//   return (
-//     <div>
-//       <button onClick={() => setCount(count + 1)}>Increment Count</button>
-//       <button onClick={() => setNumbers([...numbers, numbers.length + 1])}>
-//         Add Number
-//       </button>
-//       <p>Count: {count}</p>
-//       <h2>Computed Values:</h2>
-//       {memoizedResult.map((num, index) => (
-//         <p key={index}>{num}</p>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Example;
-  
